@@ -1,0 +1,44 @@
+.mainpage {
+
+    text-align: center;
+
+    .add__button {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4rem;
+
+        & .mainpage__addLink {
+            position: relative;
+            margin-top: 3rem;
+            text-decoration: none;
+            color: #ff4dd3;
+            text-transform: uppercase;
+            font-size: 3rem;
+            font-weight: 500;
+            padding: 1rem;
+            border: 2px solid #ff4dd3;
+            border-radius: 7px;
+            transition: all 0.2s ease;
+
+            &:hover {
+                text-decoration: none;
+                color: #ffffff;
+                border: 2px solid #ff4dd3;
+                background: rgba(255, 77, 211, .7);
+                animation: movingButton 0.5s ease-in;
+            }
+
+            @keyframes movingButton {
+                0% {
+                    transform: translateY(-0.7rem);
+                }
+
+                100% {
+                    transform: translateY(0);
+                }
+            }
+        }
+    }
+
+
+}

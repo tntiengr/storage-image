@@ -1,0 +1,36 @@
+.top-header {
+    .nav-bar {
+        background-color: #f0d3ff;
+
+        .photo,
+        .add-photo,
+        .edit-photo {
+            color: #6a55e0 !important;
+            font-weight: 500 !important;
+        }
+
+
+
+        // .active-photo:active,
+        // .active-add-photo:active,
+        // .active-edit-photo:active {
+        //     color: #f9fd01 !important;
+        //     font-weight: 500 !important;
+        // }
+    }
+
+    .navbarBrand {
+        color: #8936b3 !important;
+        font-size: 2rem;
+        font-weight: 500;
+        margin-right: 4rem;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+
+    .navbarText {
+        color: #8936b3 !important;
+        font-weight: 500;
+    }
+
+
+}

@@ -1,0 +1,46 @@
+.edit-page {
+
+
+    &__form {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        margin-bottom: 5rem;
+
+        & .photo-form {
+            width: 50%;
+
+            & label {
+                font-size: 1rem;
+                font-weight: 500;
+            }
+
+            & .preview-photo {
+                margin-top: 1rem;
+            }
+
+            &__rd-button {
+                background-color: rgba(136, 77, 255, .5);
+                outline: none;
+                border: none;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    background-color: rgb(136, 77, 255);
+                }
+            }
+
+            &__submit-button {
+                background-color: rgba(255, 77, 255, .7);
+                outline: none;
+                border: none;
+                padding: .7rem 1.5rem;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    background-color: #ff4dff;
+                }
+            }
+        }
+    }
+}
